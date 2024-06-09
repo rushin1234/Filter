@@ -12,11 +12,12 @@ function Header({ query, setQuery }) {
         <Row>
           <Col xs="auto">
             <Form.Control
+            style={{marginLeft: '10px', width: '600px', maxWidth: '60vw'}}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               type="text"
               placeholder="Search"
-              className=" mr-sm-2"
+              className="mr-sm-2"
             />
           </Col>
         </Row>

@@ -15,7 +15,7 @@ const App = () => {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('all')
   const [color, setColor] = useState('all')
-  const [company, setCompany] = useState('all')
+  const [company, setCompany] = useState('All')
   const [price, setPrice] = useState('all')
 
   const getFilterProducts = () => {
@@ -32,7 +32,7 @@ const App = () => {
         return product.color === color
       })
     }
-    if (company != 'all') {
+    if (company != 'All') {
       filterProducts = filterProducts.filter((product) => {
         return product.company === company
       })

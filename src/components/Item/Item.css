@@ -1,6 +1,11 @@
 .item {
     display: inline-flex;
     margin: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.item img {
+    
 }
 
 @media (max-width: 700px) {
