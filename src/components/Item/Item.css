@@ -1,0 +1,10 @@
+.item {
+    display: inline-flex;
+    margin: 10px;
+}
+
+@media (max-width: 700px) {
+    .item img {
+        width: 200px;
+    }
+}

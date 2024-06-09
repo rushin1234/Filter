@@ -1,0 +1,5 @@
+.products {
+    /* padding-left: 40px; */
+    height: 76vh;
+    overflow-y: scroll;
+}
